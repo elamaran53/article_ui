@@ -5,13 +5,19 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+                  /* header section  */
+
 .header-Container {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     color: white;
-    margin-bottom: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 .contact-container {
@@ -64,6 +70,7 @@ header {
     cursor: pointer;
     flex-wrap: wrap;
     justify-content: center;
+    margin-right: 100px;
 }
 
 .sections > ul > li:hover {
@@ -109,12 +116,16 @@ header {
     gap: 24px;
 }
 
+           /* home section  */
+
 .home {
     display: flex;
     justify-content: space-between;
     padding: 40px;
     flex-wrap: wrap;
     gap: 30px;
+    margin-top: 140px;
+    align-items: center;
 }
 
 .home > .home-image {
@@ -182,6 +193,8 @@ header {
     color: #c4073f;
 }
 
+       /* events section  */
+
 .events {
     padding-top: 100px;
     padding-bottom: 60px;
@@ -239,6 +252,8 @@ header {
     color: white;
 }
 
+    /* discover section  */
+
 .discover {
     display: flex;
     justify-content: space-between;
@@ -292,6 +307,8 @@ header {
     background-color: black;
     color: white;
 }
+
+  /* about section  */
 
 .about {
     display: flex;
@@ -361,6 +378,8 @@ header {
     }
 }
 
+   /* service section  */
+
 .services {
     padding: 40px;
 }
@@ -401,6 +420,8 @@ header {
     color: #c4073f;
     padding: 6px;
 }
+
+   /* footer section  */
 
 footer {
     background-color: black;
@@ -443,6 +464,8 @@ footer {
     background-color: #c4073f;
     color: white;
 }
+
+              /* Media queries for responsive  */
 
 @media only screen and (max-width: 600px) {
     .contact-container {
